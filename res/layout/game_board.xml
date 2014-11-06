@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:id="@+id/turn_display"
+        android:layout_marginBottom="20dp"
+        />
+    
+    <TableLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/game_board_tb"
+        >
+    </TableLayout>
+   
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/restart_button"
+        android:id="@+id/restart_btn"
+        android:textColor="#000000"
+        />
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quit_button"
+        android:id="@+id/quit_btn"
+        android:textColor="#000000"
+        />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TicTacToe</string>
+    <string name="welcome_text"><b>Welcome to TicTacToe!</b></string>
+	<string name="player_1_name">Enter player 1\'s name:</string>
+	<string name="player_2_name">Enter player 2\'s name:</string>
+	<string name="dimensions">Specify the dimensions of the board (3-7):</string>
+	<string name="default_dimensions">3</string>
+	<string name="restart_button">Restart</string>
+	<string name="quit_button">Quit</string>
+</resources>
